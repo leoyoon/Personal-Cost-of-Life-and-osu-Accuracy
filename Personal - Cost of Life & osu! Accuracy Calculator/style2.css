@@ -1,0 +1,81 @@
+html,
+body {
+  font-family: Lucida Sans Unicode, sans-serif; 
+  color: #333333;
+  background-color: white;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.introduction {
+  #text-align: center;
+  #border: dotted #00B2FF 5px;
+  #border-radius: 15px;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+
+  #background-image: url("osubanner.png");
+}
+
+.introduction:before {
+  content: "";
+  display: solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("osubanner.png"); 
+  width: 100%;
+  height: 100%;
+  opacity : 0.3;
+  z-index: 1;  
+  border-radius: 15px;
+}
+
+.introductionDiv {
+  text-align: center;
+ } 
+
+.resultDiv {
+  position: relative;
+  top: 150px;  
+  margin-left: 350px;
+  color: #333333;
+  font-family: 'Ubuntu', sans-serif;
+ }
+
+.inputDiv {
+  #position: absolute;
+  float: left;
+  width: 300px;
+  border: solid gray 1px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+ }
+
+.text300, .text100, .text50, .textX, .textCircles, .textSliders, .textSpinners {
+  position: relative;
+  bottom: 50px;
+  margin-left: 5px;
+ }
+
+.bodyDiv {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.calculateAcc {
+  width: 75px;
+  height: 25px;
+  border: solid black 1px;
+}
+
+.accImage {
+  margin-top: 15px;
+}
+
+.accResultNum {
+  font-size: 36px;
+}

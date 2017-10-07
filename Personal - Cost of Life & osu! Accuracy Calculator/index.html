@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Cost of Life Calculator</title>
+
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+<div class="introductionDiv">    
+    <h1 class="introduction">Cost of Life Calculator</h1>
+</div>
+
+<div class="userInputDiv">
+
+<div class="consumablesDiv">
+    <h2 class="consumables">Consumables <img class="consumablesImage" src="cupcake.png" width="53" height="24"></img></h2> 
+    <ul class="consumablesList">
+    <li class="grocery">Grocery (+ Vitamin) <input class="textGrocery" placeholder="Trips per month" size="20"></input> <a class="resultGrocery"></a></li>
+    <li class="eatingOut">Eating Out (+ Meal Plan) <input class="textEatingOut" placeholder="Times per month" size="20"></input> <a class="resultEatingOut"></a></li>
+    <li class="medicine">Medicine (If Any) <input class="textMedicine" placeholder="Cost of medicine" size="20"></input> <a class="resultMedicine"></a></li>
+    <li class="snacks">Snacks (+ Dessert, Coffee) <input class="textSnacks" placeholder="Trips per month" size="20"></input> <a class="resultSnacks"></a></li>
+    <li class="alcohol">Alcohol <input class="textAlcohol" placeholder="Drinks per month" size="20"></input> <a class="resultAlcohol"></a></li>
+    </ul>
+</div>
+
+<div class="generalDiv">
+    <h2 class="general">General Living <img class="generalImage" src="bus.png" width="60" height="24"></img></h2>
+    <ul class="generalList">
+    <li class="laundry">Laundry (+ Dry Cleaning) <input class="textLaundry" placeholder="Trips per month" size="20"></input> <a class="resultLaundry"></a></li>
+    <li class="transportation">Transportation (+ Parking) <input class="textTransportation" placeholder="Times per month" size="20"></input> <a class="resultTransportation"></a></li>
+    <li class="personal">Personal Care/Grooming (+ Bathroom Stuff) <input class="textPersonal" placeholder="Trips per month" size="20"></input> <a class="resultPersonal"></a></li>
+    </ul>
+</div>
+
+<div class="billsDiv">
+    <h2 class="bills">Bills <img class="billsImage" src="bills.png" width="43" height="24"></img></h2>
+    <ul class="billsList">
+    <li class="utility">Utility <input class="textUtility" placeholder="Average Fee" size="20"></input> <a class="resultUtility"></a></li>
+    <li class="phone">Phone <input class="textPhone" placeholder="Average Fee" size="20"></input> <a class="resultPhone"></a></li>
+    <li class="internet">Internet <input class="textInternet" placeholder="Average Fee" size="20"></input> <a class="resultInternet"></a></li>
+    <li class="membership">Membership + Subscription <input class="textMembership" placeholder="Average Fee" size="20"></input> <a class="resultMembership"></a></li>
+    </ul>
+</div>
+
+<div class="houseDiv">
+    <h2 class="house">House <img class="houseImage" src="house.png" width="39" height="24"></img></h2>
+    <ul class="houseList">
+    <li class="cost">House Cost <input class="textCost" placeholder="Average Fee" size="20"></input> <a class="resultCost"></a></li>
+    <li class="maintenance">House Maintenance <input class="textMaintenance" placeholder="Average Fee" size="20"></input> <a class="resultMaintenance"></a></li>
+    <li class="furnitures">House Furnitures <input class="textFurnitures" placeholder="Average Fee" size="20"></input> <a class="resultFurnitures"></a></li>
+    <li class="appliances">House Appliances <input class="textAppliances" placeholder="Average Fee" size="20"></input> <a class="resultAppliances"></a></li>
+    </ul>
+</div>
+
+<div class="wardrobeDiv">
+    <h2 class="wardrobe">Wardrobe <img class="wardrobeImage" src="coathanger.png" width="46" height="24"></img></h2>
+    <ul class="wardrobeList">
+    <li class="regular">Regular Clothes (Daily) <input class="textRegular" placeholder="Lifetime (months)"  size="20"></input> <input class="copiesRegular" placeholder="Copies of Item" size="20"></input> <a class="resultRegular"></a></li>
+    <li class="special">Special Clothes (Suits, etc.) <input class="textSpecial" placeholder="Lifetime (months)"  size="20"></input> <input class="copiesSpecial" placeholder="Copies of Item" size="20"></input> <a class="resultSpecial"></a></li>
+    </ul>
+</div>
+
+<div class="leisureDiv">
+    <h2 class="leisure">Leisure <img class="leisureImage" src="beach.png" width="83" height="24"></img></h2>
+    <ul class="leisureList">
+    <li class="movies">Movies <input class="textMovies" placeholder="Trips per year" size="20"></input> <a class="resultMovies"></a></li>
+    <li class="amusement">Amusement Park <input class="textAmusement" placeholder="Trips per year" size="20"></input> <a class="resultAmusement"></a></li>
+    <li class="travel">Travel <input class="textTravel" placeholder="Trips per year" size="20"></input> <a class="resultTravel"></a></li>
+    <li class="festivals">Festivals <input class="textFestivals" placeholder="Trips per year" size="20"></input> <a class="resultFestivals"></a></li>
+    <li class="museums">Museums <input class="textMuseums" placeholder="Trips per year" size="20"></input> <a class="resultMuseums"></a></li>
+    <li class="sports">Sports <input class="textSports" placeholder="Trips per year" size="20"></input> <a class="resultSports"></a></li>
+    </ul>
+</div>
+
+<div class="schoolDiv">
+    <h2 class="school">School <img class="schoolImage" src="book.png" width="52" height="24"></img></h2>
+    <ul class="schoolList">
+    <li class="pens">Pens <input class="textPens" placeholder="Lifetime (months)" size="20"></input> <input class="copiesPens" placeholder="Copies of Item" size="20"></input> <a class="resultPens"></a></li>
+    <li class="textbooks">Textbooks <input class="textTextbooks" placeholder="Lifetime (months)" size="20"></input> <input class="copiesTextbooks" placeholder="Copies of Item" size="20"></input> <a class="resultTextbooks"></a></li>
+    <li class="notebooks">Notebooks <input class="textNotebooks" placeholder="Lifetime (months)" size="20"></input> <input class="copiesNotebooks" placeholder="Copies of Item" size="20"></input> <a class="resultNotebooks"></a></li>
+    <li class="calculator">Calculator <input class="textCalculator" placeholder="Lifetime (months)" size="20"></input> <input class="copiesCalculator" placeholder="Copies of Item" size="20"></input> <a class="resultCalculator"></a></li>
+    <li class="binders">Binders <input class="textBinders" placeholder="Lifetime (months)" size="20"></input> <input class="copiesBinders" placeholder="Copies of Item" size="20"></input> <a class="resultBinders"></a></li>
+    <li class="paper">Paper <input class="textPaper" placeholder="Lifetime (months)" size="20"></input> <input class="copiesPaper" placeholder="Copies of Item" size="20"></input> <a class="resultPaper"></a></li>
+    </ul>
+</div>
+
+<div class="healthDiv">
+    <h2 class="health">Health Care <img class="healthImage" src="glasses.png" width="64" height="24"></img></h2>
+    <ul class="healthList">
+    <li class="dentist">Dentist <input class="textDentist" placeholder="Fee Per Visit" size="20"></input> </input> <a class="resultDentist"></a></li>
+    <li class="optometrist">Optometrist <input class="textOptometrist" placeholder="Fee Per Visit" size="20"></input> <a class="resultOptometrist"></a></li>
+    </ul>
+</div>
+
+</div>
+
+<div class="totalDiv">
+   <a class="total">Total cost of life for 4 months: </a>
+</div>
+
+<script src="file:///Users/Leo/Desktop/Collection/Cost of Life/jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+
+  </body>
+
+</html>

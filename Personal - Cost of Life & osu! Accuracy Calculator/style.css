@@ -1,0 +1,230 @@
+html,
+body {
+  font-family: 'calibri'; 
+  color: #404040;
+  background-color: white;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.introduction {
+  #text-align: center;
+  #border: dotted #00B2FF 5px;
+  #border-radius: 15px;
+  #margin-left: 250px;
+  #margin-right: 250px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+
+  #background-image: url("banner.png");
+
+}
+  
+.introduction:before {
+  content: "";
+  display: solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("banner.png"); 
+  width: 100%;
+  height: 100%;
+  opacity : 0.2;
+  z-index: 1;  
+  border-radius: 15px;
+}
+
+.p {
+  width: 80%;
+}
+
+.consumablesDiv, .generalDiv, .billsDiv, .houseDiv, .wardrobeDiv, .leisureDiv, .schoolDiv, .healthDiv {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.consumables, .general, .bills, .house, .wardrobe, .leisure, .school, .health {
+  border-left: double green 5px;
+  padding-left: 7px;
+}
+
+.consumablesList, .generalList, .billsList, .houseList, .wardrobeList, .leisureList, .schoolList, .healthList {
+  line-height: 160%;
+  font-family: 'Ubuntu';
+  border: groove 3px;
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.textGrocery {
+  margin-left: 59px;
+}
+
+.textEatingOut {
+  margin-left: 23px;
+}
+
+.textMedicine {
+  margin-left: 77px;
+}
+
+.textSnacks {
+  margin-left: 10px;
+}
+
+.textAlcohol {
+  margin-left: 144px;
+}
+
+.textLaundry {
+  margin-left: 150px;
+}
+
+.textTransportation {
+  margin-left: 138px;
+}
+
+.textPersonal {
+  margin-left: 10px;
+}
+
+.textUtility {
+  margin-left: 166px;
+}
+
+.textPhone {
+  margin-left: 164px;
+}
+
+.textInternet {
+  margin-left: 151px;
+}
+
+.textMembership {
+  margin-left: 12px;
+}
+
+.textCost {
+  margin-left: 71px;
+}
+
+.textMaintenance {
+  margin-left: 10px;
+}
+
+.textFurnitures {
+  margin-left: 29px;
+}
+
+.textAppliances {
+  margin-left: 25px;
+}
+
+.textRegular {
+  margin-left: 39px;
+}
+
+.textSpecial {
+  margin-left: 10px;
+}
+
+.textMovies {
+  margin-left: 83px;
+}
+
+.textAmusement {
+  margin-left: 10px;
+}
+
+.textTravel {
+  margin-left: 89px;
+}
+
+.textFestivals {
+  margin-left: 71px;
+}
+
+.textMuseums {
+  margin-left: 65px;
+}
+
+.textSports {
+  margin-left: 87px;
+}
+
+.textPens {
+  margin-left: 55px;
+}
+
+.textTextbooks {
+  margin-left: 14px;
+}
+
+.textNotebooks {
+  margin-left: 10px;
+}
+
+.textCalculator {
+  margin-left: 16px;
+}
+
+.textBinders {
+  margin-left: 35px;
+}
+
+.textPaper {
+  margin-left: 48px;
+}
+
+.textDentist {
+  margin-left: 47px;
+}
+
+.textOptometrist {
+  margin-left: 10px;
+}
+
+.total {
+  font-size: 24px;
+  font-family: 'Ubuntu';
+  margin-left: 10px;
+  border-bottom: double red 4px;
+  #padding-bottom: 3px;
+  #border-left: dotted purple 5px;
+  #padding-left: 10px;
+  #padding-right: 10px;
+}
+
+.totalDiv {
+  background: white;
+  position: fixed;
+  text-align: center;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.introductionDiv {
+  text-align: center;
+  margin-top: 70px;
+ } 
+
+.resultGrocery, .resultEatingOut, .resultMedicine, .resultSnacks, .resultAlcohol, .resultLaundry, .resultTransportation, .resultPersonal, .resultUtility, 
+.resultPhone, .resultInternet, .resultMembership, .resultCost, .resultMaintenance, .resultFurnitures, .resultAppliances, .resultRegular, .resultSpecial,
+.resultMovies, .resultAmusement, .resultTravel, .resultFestivals, .resultMuseums, .resultSports, .resultPens, .resultTextbooks, .resultNotebooks,
+.resultCalculator, .resultBinders, .resultPaper, .resultDentist, .resultOptometrist {
+  margin-left: 10px;
+}
+
+.copiesRegular, .copiesTextbooks, .copiesNotebooks, .copiesBinders, .copiesPaper {
+  margin-left: 5px;
+}
+
+.copiesSpecial, .copiesPens, .copiesCalculator {
+  margin-left: 6px;
+}
